@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Yeni Contreras | Desarrolladora Web</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black text-white font-sans">
+
+<!-- NAVBAR SUPERIOR -->
+<header class="w-full flex justify-between items-center p-6 absolute top-0">
+
+<h1 class="text-lg font-bold text-white">
+Yeni
+</h1>
+
+<div class="flex gap-3">
+
+<!-- LINKEDIN -->
+<a href="https://www.linkedin.com/in/tuusuario" target="_blank"
+class="border border-gray-700 p-2 rounded-lg hover:border-purple-500 transition">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+width="18"
+height="18"
+fill="white"
+viewBox="0 0 24 24">
+
+<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.025-3.037-1.852-3.037-1.853 
+0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.049c.476-.9 
+1.637-1.852 3.369-1.852 3.602 0 4.267 2.37 
+4.267 5.455v6.288zM5.337 7.433c-1.144 
+0-2.063-.926-2.063-2.065 0-1.138.919-2.063 
+2.063-2.063 1.14 0 2.064.925 
+2.064 2.063 0 1.139-.925 2.065-2.064 
+2.065z"/>
+
+</svg>
+
+</a>
+
+<!-- GITHUB -->
+<a href="https://github.com/tuusuario" target="_blank"
+class="border border-gray-700 p-2 rounded-lg hover:border-purple-500 transition">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+width="18"
+height="18"
+fill="white"
+viewBox="0 0 24 24">
+
+<path d="M12 .297a12 12 0 00-3.79 23.403c.6.113.82-.26.82-.577
+0-.285-.01-1.04-.015-2.04-3.338.725-4.042-1.61-4.042-1.61
+-.546-1.385-1.333-1.754-1.333-1.754-1.09-.745.083-.73.083-.73
+1.205.084 1.838 1.237 1.838 1.237
+1.07 1.835 2.807 1.305 3.492.998
+.108-.775.418-1.305.76-1.605-2.665-.303-5.466-1.334-5.466-5.93
+0-1.31.468-2.382 1.236-3.222-.124-.303-.536-1.523.117-3.176
+0 0 1.008-.322 3.3 1.23a11.5 11.5 0 016.003 0c2.291-1.552
+3.297-1.23 3.297-1.23.655 1.653.243 2.873.12 3.176
+.77.84 1.235 1.912 1.235 3.222
+0 4.61-2.804 5.624-5.475 5.921
+.43.372.814 1.102.814 2.222
+0 1.606-.014 2.898-.014 3.293
+0 .319.216.694.825.576A12.002 12.002 0 0012 .297"/>
+
+</svg>
+
+</a>
+
+</div>
+
+</header>
+
+<!-- HERO -->
+<section class="min-h-screen flex flex-col items-center justify-center text-center px-6">
+
+<img src="/img/yeni.jpg" 
+class="w-52 h-52 rounded-full border-4 border-black mb-6 object-cover 
+transition-transform duration-300 hover:scale-110">
+
+<h1 class="text-4xl font-bold">
+Hola, soy <span class="text-purple-400">Yeni Contreras</span>
+</h1>
+
+<p class="mt-4 text-gray-300 max-w-xl">
+Desarrolladora web enfocada en crear interfaces modernas y aplicaciones funcionales.
+</p>
+
+<div class="flex gap-4 mt-6">
+<a href="#proyectos" class="bg-purple-600 px-6 py-2 rounded-lg hover:bg-purple-700">
+Ver proyectos
+</a>
+
+<a href="#contacto" class="border border-purple-500 px-6 py-2 rounded-lg hover:bg-purple-700">
+Contactar
+</a>
+</div>
+
+</section>
+
+<!-- SOBRE MI -->
+<section class="py-20 px-6 text-center">
+
+<h2 class="text-3xl font-bold mb-6">
+Sobre mí
+</h2>
+
+<p class="max-w-2xl mx-auto text-gray-400">
+Soy estudiante de computación e informática y me apasiona el desarrollo web.
+Actualmente trabajo con HTML, CSS, JavaScript y Node.js desarrollando
+aplicaciones web modernas.
+</p>
+
+</section>
+
+<!-- HABILIDADES -->
+<section class="py-20 bg-gray-900 text-center">
+
+<h2 class="text-3xl font-bold mb-10">
+Habilidades
+</h2>
+
+<div class="flex flex-wrap justify-center gap-4">
+
+<span class="bg-purple-600 px-4 py-2 rounded-lg">HTML</span>
+<span class="bg-purple-600 px-4 py-2 rounded-lg">CSS</span>
+<span class="bg-purple-600 px-4 py-2 rounded-lg">JavaScript</span>
+<span class="bg-purple-600 px-4 py-2 rounded-lg">Node.js</span>
+<span class="bg-purple-600 px-4 py-2 rounded-lg">Express</span>
+<span class="bg-purple-600 px-4 py-2 rounded-lg">Git</span>
+
+</div>
+
+</section>
+
+<!-- PROYECTOS -->
+<section id="proyectos" class="py-20 px-6">
+
+<h2 class="text-3xl font-bold text-center mb-12">
+Proyectos
+</h2>
+
+<div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+
+<!-- PROYECTO 1 -->
+<div class="bg-gray-900 rounded-xl overflow-hidden shadow-lg group">
+
+<img src="/img/pasteleria_app2.jpg" 
+class="w-full h-64 object-cover object-top 
+transition-transform duration-500 group-hover:scale-110">
+
+<div class="p-6">
+
+<h3 class="text-xl font-bold mb-2">Sistema Web para Pastelería</h3>
+
+<p class="text-gray-400 mb-4">
+Aplicación web desarrollada para gestionar pedidos de una pastelería.
+Permite visualizar productos, registrar pedidos y administrar solicitudes.
+Fue desarrollada con HTML, CSS, JavaScript y backend con Node.js y Express.
+</p>
+
+<p class="text-sm text-gray-500 mb-4">
+HTML • CSS • JavaScript • Node.js • Express
+</p>
+
+<div class="flex gap-4 flex-wrap">
+
+<a href="https://github.com/YennerDev/Pasteleria-Web.git"
+target="_blank"
+class="bg-purple-600 px-4 py-2 rounded-lg hover:bg-purple-700">
+Repository
+</a>
+
+<a href="https://pasteleria-web-app.onrender.com/"
+target="_blank"
+class="border border-purple-500 px-4 py-2 rounded-lg hover:bg-purple-700">
+Visit Site
+</a>
+
+<a href="https://pasteleria-web-app.onrender.com/admin.html"
+target="_blank"
+class="border border-purple-500 px-4 py-2 rounded-lg hover:bg-purple-700">
+Admin
+</a>
+
+</div>
+
+</div>
+</div>
+
+<!-- PROYECTO 2 -->
+<div class="bg-gray-900 rounded-xl overflow-hidden shadow-lg">
+
+<img src="/img/reparacion.jpg" 
+class="w-full h-64 object-cover object-top">
+
+<div class="p-6">
+
+<h3 class="text-xl font-bold mb-2">FixPhone – Sitio Web de Servicio Técnico</h3>
+
+<p class="text-gray-400 mb-4">
+Sitio web desarrollado para un servicio técnico de reparación de celulares.
+Permite a los usuarios conocer los servicios disponibles, ver información del negocio
+y contactar con el servicio técnico.
+</p>
+
+<p class="text-sm text-gray-500 mb-4">
+HTML • CSS • JavaScript
+</p>
+
+<div class="flex gap-4">
+
+<a href="https://github.com/YeniDev/LandingPage_Proyecto.git"
+target="_blank"
+class="bg-purple-600 px-4 py-2 rounded-lg hover:bg-purple-700">
+Repository
+</a>
+
+<a href="https://fixphone.onrender.com/"
+target="_blank"
+class="border border-purple-500 px-4 py-2 rounded-lg hover:bg-purple-700">
+Visit Site
+</a>
+
+</div>
+
+</div>
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="py-20 bg-gray-900 text-center">
+
+<h2 class="text-3xl font-bold mb-6">
+Contacto
+</h2>
+
+<p class="text-gray-400 mb-6">
+¿Quieres trabajar conmigo?
+</p>
+
+<a href="https://wa.me/51939253063" 
+class="bg-purple-600 px-6 py-3 rounded-lg hover:bg-purple-700">
+Contactar por WhatsApp
+</a>
+
+</section>
+
+</body>
+</html>
